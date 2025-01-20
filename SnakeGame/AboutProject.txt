@@ -1,0 +1,1 @@
+Made a famous snake game using HTML, CSS and JS
