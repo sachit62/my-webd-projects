@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Modern font for better aesthetics */
+}
+
+body {
+    background-color: #121212; /* Darker background for better contrast */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff8c00, #ffa500, #ffd700); /* Gradient text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 i {
+    color: gold;
+    margin-left: 10px;
+}
+
+.stopwatch {
+    background: linear-gradient(145deg, #ff5a5a, #e60000); /* Gradient red */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6), inset 0 -4px 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.timerDisplay {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #faff00, #ffe600); /* Gradient yellow */
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#stopBtn {
+    background: linear-gradient(90deg, #ff4b4b, #e60000); /* Gradient red */
+}
+
+#stopBtn:hover {
+    background: linear-gradient(90deg, #e60000, #ff4b4b);
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(255, 0, 0, 0.6);
+}
+
+#startBtn {
+    background: linear-gradient(90deg, #4caf50, #2e7d32); /* Gradient green */
+}
+
+#startBtn:hover {
+    background: linear-gradient(90deg, #2e7d32, #4caf50);
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 255, 0, 0.6);
+}
+
+#resetBtn {
+    background: linear-gradient(90deg, #4285f4, #0d47a1); /* Gradient blue */
+}
+
+#resetBtn:hover {
+    background: linear-gradient(90deg, #0d47a1, #4285f4);
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 255, 0.6);
+}
