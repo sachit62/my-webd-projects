@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0%;
     padding: 0%;
@@ -92,4 +93,100 @@ button {
 .notNumber {
     font-weight: bolder;
     background-color: #aec0d3;
+=======
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #d1dde9;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar h1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar h1 i {
+    margin-left: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.calculator {
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.calculator input {
+    padding-top: 15px;
+    width: 300px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    background-color: #336699;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    background-color: #e5ecf3;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.row1 {
+    padding-top: 20px;
+}
+
+.notNumber {
+    font-weight: bolder;
+    background-color: #aec0d3;
+>>>>>>> 1af96495fbb26a26bfb4b53d356034868dd0e274
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -57,3 +58,62 @@ body {
   opacity: 0.75;
   background-color: green;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    height: 40%;
+    width: 25%;
+    left: 55%;
+    top: 10%;
+    padding: 10px;
+}
+
+.container h2{
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-bottom: 5px solid black;
+}
+
+.box1 input, .box2 input{
+    border-radius: 5px;
+    width: 80%;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+.box1 i, .box2 i{
+    width: 25px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+#btn{
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 12px 0px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#btn:hover{
+    opacity: 0.75;
+    background-color: green;
+}
+>>>>>>> 1af96495fbb26a26bfb4b53d356034868dd0e274

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -82,4 +83,90 @@ body {
     padding: 5px;
     background-color: rgba(255, 87, 34, 0.1);
     /* Slight translucent background */
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, #4caf50, #087f23);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+/* Score box styling */
+#scoreBox {
+    position: absolute;
+    top: 40px;
+    right: 250px;
+    padding: 12px 24px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+/* Game board */
+#board {
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    background: linear-gradient(45deg, #dcedc8, #aed581);
+    width: 90vmin;
+    height: 90vmin;
+    border: 10px solid #212121;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+/* Snake head styling */
+.head {
+    background: linear-gradient(135deg, #ff7043, #f44336);
+    /* Bright red gradient */
+    border: 3px solid #000;
+    border-radius: 50%;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ff7043, 0 0 15px #f44336;
+}
+
+/* Snake body styling */
+.snake {
+    background: linear-gradient(135deg, #4caf50, #087f23);
+    /* Green gradient */
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+/* Food styling (Burger icon) */
+.food {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food i {
+    font-size: 4vmin;
+    color: #ff5722;
+    /* Bright orange color */
+    border: 1px solid #ffeb3b;
+    /* Golden yellow border */
+    border-radius: 40%;
+    padding: 5px;
+    background-color: rgba(255, 87, 34, 0.1);
+    /* Slight translucent background */
+>>>>>>> 1af96495fbb26a26bfb4b53d356034868dd0e274
 }
