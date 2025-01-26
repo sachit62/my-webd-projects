@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Game Constants & Variables
 let inputDir = { x: 0, y: 0 };
 const foodSound = new Audio('food.mp3');

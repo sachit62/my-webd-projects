@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const inputBox = document.getElementById('inputBox');
 const buttons = document.querySelectorAll('button');
 
