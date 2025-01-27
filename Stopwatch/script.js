@@ -44,7 +44,6 @@ function startTimer() {
 
     timerDisplay.innerHTML = `${minsString} : ${secsString} : ${msecsString}`;
 }
-=======
 let timerDisplay = document.querySelector('.timerDisplay');
 let stopBtn = document.getElementById('stopBtn');
 let startBtn = document.getElementById('startBtn');
@@ -91,4 +90,3 @@ function startTimer() {
 
     timerDisplay.innerHTML = `${minsString} : ${secsString} : ${msecsString}`;
 }
->>>>>>> 1af96495fbb26a26bfb4b53d356034868dd0e274

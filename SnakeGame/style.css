@@ -82,7 +82,6 @@ body {
     padding: 5px;
     background-color: rgba(255, 87, 34, 0.1);
     /* Slight translucent background */
-=======
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -167,5 +166,4 @@ body {
     padding: 5px;
     background-color: rgba(255, 87, 34, 0.1);
     /* Slight translucent background */
->>>>>>> 1af96495fbb26a26bfb4b53d356034868dd0e274
 }

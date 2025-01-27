@@ -34,7 +34,6 @@ buttons.forEach(button => {
         }
     });
 });
-=======
 const inputBox = document.getElementById('inputBox');
 const buttons = document.querySelectorAll('button');
 
@@ -71,4 +70,3 @@ buttons.forEach(button => {
         }
     });
 });
->>>>>>> 1af96495fbb26a26bfb4b53d356034868dd0e274
